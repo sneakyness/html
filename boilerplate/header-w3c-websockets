@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- when publishing, change bits marked ZZZ
+     ZZZ: Set PUB to 1 for TR/ drafts, 0 for dev drafts; PUB-Y lines are used if it's 1 and PUB-N lines if it's 0.
+     ZZZ: Set YEAR, SHORTDAY (month/day), and LONGDAY accordingly. They are used by the INSERT FOO bits below.
+  -->
+<!--SET PUB=0-->
+<!--SET SHORTSTATUS=WD-->
+<!--SET URLSTATUS=WD-->
+<!--SET LONGSTATUS=Working Draft-->
+<!--SET YEAR=2010-->
+<!--SET SHORTDAY=1116-->
+<!--SET LONGDAY=16 November-->
+<!--SET TRNAME=websockets-->
+<!--SET DEVURL=http://dev.w3.org/html5/websockets/-->
+<!--SET COMPONENT=WebSocket API (editor: Ian Hickson)-->
+<html lang="en-US-x-Hixie">
+ <head>
+  <title>The WebSocket API</title>
+  <!--BOILERPLATE middle-w3c-styles-->
+  <!--BOILERPLATE middle-w3c-webapps-magic-->
+   <h1>The WebSocket API</h1>
+   <!--<h2 class="no-num no-toc">(subtitle)</h2>-->
+<!--BOILERPLATE middle-w3c-version-->
+<!-- ZZZ: add the new version after it has shipped-->
+    <dt>Previous Versions:</dt>
+    <dd><a href="http://www.w3.org/TR/2009/WD-websockets-20090423/">http://www.w3.org/TR/2009/WD-websockets-20090423/</a>
+    <dd><a href="http://www.w3.org/TR/2009/WD-websockets-20091029/">http://www.w3.org/TR/2009/WD-websockets-20091029/</a></dd>
+<!-- :ZZZ -->
+    <dt>Editor:</dt>
+    <dd><a href="mailto:ian@hixie.ch">Ian Hickson</a>, Google, Inc.</dd>
+   </dl>
+  <!--BOILERPLATE middle-w3c-copyright-->
+
+  <h2 class="no-num no-toc">Abstract</h2>
+
+  <p>This specification defines an API that enables Web pages to use
+  the WebSocket protocol for two-way communication with a remote
+  host.</p>
+
+  <h2 class="no-num no-toc">Status of This document</h2>
+
+  <!--BOILERPLATE middle-w3c-feedback-->
+  <!--BOILERPLATE middle-w3c-feedback-webapps-->
+
+  <p>This specification is being developed in conjunction with an
+  RFC for a wire protocol, the WebSocket Protocol,
+  available from the following location:</p>
+
+  <ul>
+   <li>RFC 6455: The WebSocket Protocol: <a href="http://tools.ietf.org/html/rfc6455">http://tools.ietf.org/html/rfc6455</a></li>
+  </ul>
+
+  <!-- required patent boilerplate -->
+  <p>This document was produced by a group operating under the <a
+  href="http://www.w3.org/Consortium/Patent-Policy-20040205/">5
+  February 2004 W3C Patent Policy</a>. W3C maintains a <a
+  rel="disclosure"
+  href="http://www.w3.org/2004/01/pp-impl/42538/status">public list of
+  any patent disclosures</a> made in connection with the deliverables
+  of the group; that page also includes instructions for disclosing a
+  patent. An individual who has actual knowledge of a patent which the
+  individual believes contains <a
+  href="http://www.w3.org/Consortium/Patent-Policy-20040205/#def-essential">Essential
+  Claim(s)</a> must disclose the information in accordance with <a
+  href="http://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Disclosure">section
+  6 of the W3C Patent Policy</a>.</p>
+
+  <!--BOILERPLATE middle-w3c-webapps-pp-->
+
+  <h2 class="no-num no-toc" id="contents">Table of Contents</h2>
+  <!--toc-->
+  <hr>

@@ -1,0 +1,3 @@
+<link href="data:text/css," id="complete" rel="stylesheet" title="Complete specification">
+<link href="data:text/css,.impl%20{%20display:%20none;%20}%0Ahtml%20{%20border:%20solid%20yellow;%20}%20.domintro:before%20{%20display:%20none;%20}" id="author" rel="alternate stylesheet" title="Author documentation only">
+<link href="data:text/css,.impl%20{%20background:%20%23FFEEEE;%20}%20.domintro:before%20{%20background:%20%23FFEEEE;%20}" id="highlight" rel="alternate stylesheet" title="Highlight implementation requirements">

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- when publishing, change bits marked ZZZ
+     ZZZ: Set PUB to 1 for TR/ drafts, 0 for dev drafts; PUB-Y lines are used if it's 1 and PUB-N lines if it's 0.
+     ZZZ: Set YEAR, SHORTDAY, and LONGDAY accordingly. They are used by the INSERT FOO bits below.
+  -->
+<!--SET PUB=1-->
+<!--SET SHORTSTATUS=WD-->
+<!--SET URLSTATUS=WD-->
+<!--SET LONGSTATUS=Working Draft-->
+<!--SET YEAR=2012-->
+<!--SET SHORTDAY=0329-->
+<!--SET LONGDAY=29 March-->
+<!--SET TRNAME=2dcontext-->
+<!--SET DEVURL=http://dev.w3.org/html5/2dcontext/-->
+<!--SET COMPONENT=HTML Canvas 2D Context (editor: Ian Hickson)-->
+<html lang="en-US-x-Hixie">
+ <head>
+  <title>HTML Canvas 2D Context</title>
+  <!--BOILERPLATE middle-w3c-styles-->
+  <!--BOILERPLATE middle-override-styles-->
+  <!--BOILERPLATE middle-author-mode-links-->
+  <!--BOILERPLATE middle-w3c-html-magic-->
+   <h1>HTML Canvas 2D Context</h1>
+   <h2 class="no-num no-toc"></h2>
+<!--BOILERPLATE middle-w3c-version-->
+<!-- ZZZ: add the new version after it has shipped -->
+    <dt>Previous Versions:</dt>
+    <dd><a href="http://www.w3.org/TR/2011/WD-2dcontext-20110525/">http://www.w3.org/TR/2011/WD-2dcontext-20110525/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2011/WD-2dcontext-20110405/">http://www.w3.org/TR/2011/WD-2dcontext-20110405/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2011/WD-2dcontext-20110113/">http://www.w3.org/TR/2011/WD-2dcontext-20110113/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2010/WD-2dcontext-20101019/">http://www.w3.org/TR/2010/WD-2dcontext-20101019/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2010/WD-2dcontext-20100624/">http://www.w3.org/TR/2010/WD-2dcontext-20100624/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2010/WD-2dcontext-20100304/">http://www.w3.org/TR/2010/WD-2dcontext-20100304/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2009/WD-html5-20090825/">http://www.w3.org/TR/2009/WD-html5-20090825/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2009/WD-html5-20090423/">http://www.w3.org/TR/2009/WD-html5-20090423/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2009/WD-html5-20090212/">http://www.w3.org/TR/2009/WD-html5-20090212/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2008/WD-html5-20080610/">http://www.w3.org/TR/2008/WD-html5-20080610/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2008/WD-html5-20080122/">http://www.w3.org/TR/2008/WD-html5-20080122/</a></dd>
+<!-- :ZZZ -->
+    <dt>Editor:</dt>
+    <dd><a href="mailto:ian@hixie.ch">Ian Hickson</a>, Google, Inc.</dd>
+   </dl>
+  <!--BOILERPLATE middle-w3c-copyright-->
+
+  <h2 class="no-num no-toc">Abstract</h2>
+
+  <p>This specification defines the 2D Context for the HTML
+  <code>canvas</code> element.</p>
+
+  <h2 class="no-num no-toc">Status of This document</h2>
+  <!--BOILERPLATE middle-w3c-feedback-->
+  <!--BOILERPLATE middle-w3c-feedback-html-->
+  <!--BOILERPLATE middle-w3c-html-module-status-->
+  <!--BOILERPLATE middle-w3c-html-pp-->
+
+  <h2 class="no-num no-toc" id="contents">Table of Contents</h2>
+  <!--toc-->
+  <hr>
+
+  <!--BOILERPLATE middle-w3c-html-module-conf-->

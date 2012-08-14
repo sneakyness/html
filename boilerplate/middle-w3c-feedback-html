@@ -1,0 +1,135 @@
+
+  <p>If you cannot do this then you can also e-mail feedback to <a
+  href="mailto:public-html-comments@w3.org">public-html-comments@w3.org</a>
+  (<a
+  href="mailto:public-html-comments-request@w3.org?subject=subscribe">subscribe</a>,
+  <a
+  href="http://lists.w3.org/Archives/Public/public-html-comments/">archives</a>),
+  and arrangements will be made to transpose the comments to our
+  public bug database.
+
+  <!-- UNDER NO CIRCUMSTANCES IS THE FOLLOWING SENTENCE TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->  
+  Alternatively, you can e-mail feedback to <a
+  href="mailto:whatwg@whatwg.org">whatwg@whatwg.org</a> (<a
+  href="http://lists.whatwg.org/listinfo.cgi/whatwg-whatwg.org">subscribe</a>,
+  <a
+  href="http://lists.whatwg.org/pipermail/whatwg-whatwg.org/">archives</a>).
+  The editor guarantees that all substantive feedback sent to this
+  list will receive a reply. However, such feedback is not considered
+  formal feedback for the W3C process.
+  <!-- UNDER NO CIRCUMSTANCES IS THE PRECEDING SENTENCE TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->
+
+  All feedback is welcome.</p>
+
+  <!-- UNDER NO CIRCUMSTANCES IS THE FOLLOWING PARAGRAPH TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->  
+  <p>The working groups maintains <a
+  href="http://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=ian%40hixie.ch&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">a
+  list of all bug reports that the editor has not yet tried to
+  address</a> and <a
+  href="http://www.w3.org/html/wg/tracker/products/1">a list of issues
+  for which the chairs have not yet declared a decision</a>. The
+  editor also maintains <a href="http://www.whatwg.org/issues/">a list
+  of all e-mails that he has not yet tried to address</a>. These bugs,
+  issues, and e-mails apply to multiple HTML-related specifications,
+  not just this one.</p>
+  <!-- UNDER NO CIRCUMSTANCES IS THE PRECEDING PARAGRAPH TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->
+
+
+  <!-- stability (required) -->
+  <p>Implementors should be aware that this specification is not
+  stable. <strong>Implementors who are not taking part in the
+  discussions are likely to find the specification changing out from
+  under them in incompatible ways.</strong> Vendors interested in
+  implementing this specification before it eventually reaches the
+  Candidate Recommendation stage should join the aforementioned
+  mailing lists and take part in the discussions.</p>
+
+
+  <div id="multipage-common">
+<!--PUB-Y-->  <!-- stability warning for TR/ page version -->
+<!--PUB-Y-->  <!-- q.v. http://lists.w3.org/Archives/Public/public-html/2010Oct/0457.html -->
+<!--PUB-Y-->  <p class="stability" id="wip"><strong>This is a work in
+<!--PUB-Y-->  progress!</strong> For the latest updates from the HTML WG, possibly
+<!--PUB-Y-->  including important bug fixes, please look at the <a
+<!--PUB-Y-->  href="<!--INSERT DEVURL-->">editor's draft</a> instead.
+<!--PUB-Y-->  <input type=button onclick="closeWarning(this.parentNode)" value="&#x2573;&#x20DD;">
+<!--PUB-Y-->  </p>
+<!--PUB-Y-->  <script>
+<!--PUB-Y-->   function closeWarning(element) {
+<!--PUB-Y-->     element.parentNode.removeChild(element);
+<!--PUB-Y-->     var date = new Date();
+<!--PUB-Y-->     date.setDate(date.getDate()+4);
+<!--PUB-Y-->     document.cookie = 'hide-obsolescence-warning=1; expires=' + date.toGMTString();
+<!--PUB-Y-->   }
+<!--PUB-Y-->   if (getCookie('hide-obsolescence-warning') == '1')
+<!--PUB-Y-->     setTimeout(function () { document.getElementById('wip').parentNode.removeChild(document.getElementById('wip')); }, 2000);
+<!--PUB-Y-->  </script>
+<!--PUB-Y-->  <!--
+<!--PUB-Y-->  <script>
+<!--PUB-Y-->   if (location == '<!--INSERT DEVURL-->') {
+<!--PUB-Y-->     var wip = document.getElementById('wip');
+<!--PUB-Y-->     wip.parentNode.removeChild(wip);
+<!--PUB-Y-->   }
+<!--PUB-Y-->  </script>
+<!--PUB-Y-->  -->
+  </div>
+
+
+  <!-- not everyone agrees with this (requested before html5 fpwd) -->
+  <p>The publication of this document by the W3C as a W3C Working
+  Draft does not imply that all of the participants in the W3C HTML
+  working group endorse the contents of the specification. Indeed, for
+  any section of the specification, one can usually find many members
+  of the working group or of the W3C as a whole who object strongly to
+  the current text, the existence of the section at all, or the idea
+  that the working group should even spend time discussing the concept
+  of that section.</p>
+
+
+  <!-- UNDER NO CIRCUMSTANCES IS THE FOLLOWING PARAGRAPH TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->
+  <!-- version history or list of changes (required) -->
+  <p>The latest stable version of the editor's draft of this
+  specification is always available on <a
+  href="http://dev.w3.org/html5/">the W3C CVS server</a> and in the <a
+  href="http://svn.whatwg.org/webapps/">WHATWG Subversion
+  repository</a>. The <a
+  href="http://www.whatwg.org/specs/web-apps/current-work/complete.html">latest
+  editor's working copy</a> (which may contain unfinished text in the
+  process of being prepared) contains the latest draft text of this
+  specification (amongst others). For more details, please see the <a
+  href="http://wiki.whatwg.org/wiki/FAQ#What_are_the_various_versions_of_the_spec.3F">WHATWG
+  FAQ</a>.</p></p>
+  <!-- UNDER NO CIRCUMSTANCES IS THE PRECEDING PARAGRAPH TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->
+
+  <!-- UNDER NO CIRCUMSTANCES IS THE FOLLOWING LIST TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->
+  <p>There are various ways to follow the change history for the
+  HTML specifications:</p>
+  <dl>
+   <dt>E-mail notifications of changes</dt>
+   <dd>HTML-Diffs mailing list (diff-marked HTML versions for each change): <a href="http://lists.w3.org/Archives/Public/public-html-diffs/latest">http://lists.w3.org/Archives/Public/public-html-diffs/latest</a></dd>
+   <dd>Commit-Watchers mailing list (complete source diffs): <a href="http://lists.whatwg.org/listinfo.cgi/commit-watchers-whatwg.org">http://lists.whatwg.org/listinfo.cgi/commit-watchers-whatwg.org</a></dd>
+   <dt>Browsable version-control record of all changes:</dt>
+   <dd>CVSWeb interface with side-by-side diffs: <a href="http://dev.w3.org/cvsweb/html5/spec/">http://dev.w3.org/cvsweb/html5/spec/</a></dd>
+   <dd>Annotated summary with unified diffs: <a href="http://html5.org/tools/web-apps-tracker">http://html5.org/tools/web-apps-tracker</a></dd>
+   <dd>Raw Subversion interface: <code>svn checkout http://svn.whatwg.org/webapps/</code></dd>
+  </dl>
+  <!-- UNDER NO CIRCUMSTANCES IS THE PRECEDING LIST TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->
+
+  <!-- status of document, group responsible (required) -->
+  <p>The W3C <a href="http://www.w3.org/html/wg/">HTML Working
+  Group</a> is the W3C working group responsible for this
+  specification's progress along the W3C Recommendation
+  track.
+<!--PUB-Y-->  This specification is the <!--INSERT LONGDAY--> <!--INSERT YEAR--> <!--INSERT LONGSTATUS-->.
+<!--PUB-N-->  This specification is the [DATE 1 January 1970] Editor's Draft.
+  </p>
+
+
+  <!-- UNDER NO CIRCUMSTANCES IS THE PRECEDING PARAGRAPH TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->
+  <!-- relationship to other work (required) -->
+  <p>Work on this specification is also done at the <a
+  href="http://www.whatwg.org/">WHATWG</a>. The W3C HTML working group
+  actively pursues convergence with the WHATWG, as required by the <a
+  href="http://www.w3.org/2007/03/HTML-WG-charter">W3C HTML working
+  group charter</a>.</p>
+  <!-- UNDER NO CIRCUMSTANCES IS THE FOLLOWING PARAGRAPH TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->

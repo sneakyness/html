@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- when publishing, change bits marked ZZZ
+     ZZZ: Set PUB to 1 for TR/ drafts, 0 for dev drafts; PUB-Y lines are used if it's 1 and PUB-N lines if it's 0.
+     ZZZ: Set YEAR, SHORTDAY (month/day), and LONGDAY accordingly. They are used by the INSERT FOO bits below.
+  -->
+<!--SET PUB=0-->
+<!--SET SHORTSTATUS=WD-->
+<!--SET URLSTATUS=WD-->
+<!--SET LONGSTATUS=Working Draft-->
+<!--SET YEAR=2011-->
+<!--SET SHORTDAY=0310-->
+<!--SET LONGDAY=10 March-->
+<!--SET TRNAME=eventsource-->
+<!--SET DEVURL=http://dev.w3.org/html5/eventsource/-->
+<!--SET COMPONENT=Server-Sent Events (editor: Ian Hickson)-->
+<html lang="en-US-x-Hixie">
+ <head>
+  <title>Server-Sent Events</title>
+  <!--BOILERPLATE middle-w3c-styles-->
+  <!--BOILERPLATE middle-w3c-webapps-magic-->
+   <h1>Server-Sent Events</h1>
+   <!--<h2 class="no-num no-toc">(subtitle)</h2>-->
+<!--BOILERPLATE middle-w3c-version-->
+<!-- ZZZ: add the new version after it has shipped -->
+    <dt>Previous Versions:</dt>
+    <dd><a href="http://www.w3.org/TR/2011/WD-eventsource-20110310/">http://www.w3.org/TR/2011/WD-eventsource-20110310/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2011/WD-eventsource-20110208/">http://www.w3.org/TR/2011/WD-eventsource-20110208/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2009/WD-eventsource-20091222/">http://www.w3.org/TR/2009/WD-eventsource-20091222/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2009/WD-eventsource-20091029/">http://www.w3.org/TR/2009/WD-eventsource-20091029/</a></dd>
+    <dd><a href="http://www.w3.org/TR/2009/WD-eventsource-20090423/">http://www.w3.org/TR/2009/WD-eventsource-20090423/</a></dd>
+<!-- :ZZZ -->
+    <dt>Editor:</dt>
+    <dd><a href="mailto:ian@hixie.ch">Ian Hickson</a>, Google, Inc.</dd>
+   </dl>
+  <!--BOILERPLATE middle-w3c-copyright-->
+
+  <h2 class="no-num no-toc">Abstract</h2>
+
+  <p>This specification defines an API for opening an HTTP connection
+  for receiving push notifications from a server in the form of DOM
+  events. The API is designed such that it can be extended to work
+  with other push notification schemes such as Push SMS.</p>
+
+  <h2 class="no-num no-toc">Status of This document</h2>
+
+  <!--BOILERPLATE middle-w3c-feedback-->
+  <!--BOILERPLATE middle-w3c-feedback-webapps-->
+  <!--BOILERPLATE middle-w3c-webapps-pp-->
+
+  <h2 class="no-num no-toc" id="contents">Table of Contents</h2>
+  <!--toc-->
+  <hr>

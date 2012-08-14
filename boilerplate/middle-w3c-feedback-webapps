@@ -1,0 +1,78 @@
+
+  <p>You can also e-mail feedback to <a
+  href="mailto:public-webapps@w3.org">public-webapps@w3.org</a> (<a
+  href="mailto:public-webapps-request@w3.org?subject=subscribe">subscribe</a>,
+  <a href="http://lists.w3.org/Archives/Public/public-webapps/">archives</a>),
+  or <a href="mailto:whatwg@whatwg.org">whatwg@whatwg.org</a> (<a
+  href="http://lists.whatwg.org/listinfo.cgi/whatwg-whatwg.org">subscribe</a>,
+  <a href="http://lists.whatwg.org/pipermail/whatwg-whatwg.org/">archives</a>).
+  All feedback is welcome.</p>
+
+  <!-- stability (required) -->
+  <p>Implementors should be aware that this specification is not
+  stable. <strong>Implementors who are not taking part in the
+  discussions are likely to find the specification changing out from
+  under them in incompatible ways.</strong> Vendors interested in
+  implementing this specification before it eventually reaches the
+  Candidate Recommendation stage should join the aforementioned
+  mailing lists and take part in the discussions.</p>
+
+  <div id="multipage-common">
+<!--PUB-Y-->  <!-- stability warning for TR/ page version -->
+<!--PUB-Y-->  <!-- q.v. http://lists.w3.org/Archives/Public/public-html/2010Oct/0457.html -->
+<!--PUB-Y-->  <p class="stability" id="wip"><strong>This is a work in
+<!--PUB-Y-->  progress!</strong> For the latest updates from the WebApps WG, possibly
+<!--PUB-Y-->  including important bug fixes, please look at the <a
+<!--PUB-Y-->  href="<!--INSERT DEVURL-->">editor's draft</a> instead.
+<!--PUB-Y-->  <input type=button onclick="closeWarning(this.parentNode)" value="&#x2573;&#x20DD;">
+<!--PUB-Y-->  </p>
+<!--PUB-Y-->  <script>
+<!--PUB-Y-->   function closeWarning(element) {
+<!--PUB-Y-->     element.parentNode.removeChild(element);
+<!--PUB-Y-->     var date = new Date();
+<!--PUB-Y-->     date.setDate(date.getDate()+4);
+<!--PUB-Y-->     document.cookie = 'hide-obsolescence-warning=1; expires=' + date.toGMTString();
+<!--PUB-Y-->   }
+<!--PUB-Y-->   if (getCookie('hide-obsolescence-warning') == '1')
+<!--PUB-Y-->     setTimeout(function () { document.getElementById('wip').parentNode.removeChild(document.getElementById('wip')); }, 2000);
+<!--PUB-Y-->  </script>
+<!--PUB-Y-->  <!--
+<!--PUB-Y-->  <script>
+<!--PUB-Y-->   if (location == '<!--INSERT DEVURL-->') {
+<!--PUB-Y-->     var wip = document.getElementById('wip');
+<!--PUB-Y-->     wip.parentNode.removeChild(wip);
+<!--PUB-Y-->   }
+<!--PUB-Y-->  </script>
+<!--PUB-Y-->  -->
+  </div>
+
+  <!-- version history or list of changes (required) --> <p>The latest
+  stable version of the editor's draft of this specification is always
+  available on <a href="<!--INSERT DEVURL-->">the W3C CVS server</a>
+  and in the <a href="http://svn.whatwg.org/webapps/">WHATWG
+  Subversion repository</a>. The <a
+  href="http://www.whatwg.org/specs/web-apps/current-work/complete.html">latest
+  editor's working copy</a> (which may contain unfinished text in the
+  process of being prepared) contains the latest draft text of this
+  specification (amongst others). For more details, please see the <a
+  href="http://wiki.whatwg.org/wiki/FAQ#What_are_the_various_versions_of_the_spec.3F">WHATWG
+  FAQ</a>.</p></p>
+
+  <p>Notifications of changes to this specification are sent along
+  with notifications of changes to related specifications using the
+  following mechanisms:</p>
+  <dl>
+   <dt>E-mail notifications of changes</dt>
+   <dd>Commit-Watchers mailing list (complete source diffs): <a href="http://lists.whatwg.org/listinfo.cgi/commit-watchers-whatwg.org">http://lists.whatwg.org/listinfo.cgi/commit-watchers-whatwg.org</a></dd>
+   <dt>Browsable version-control record of all changes:</dt>
+   <dd>CVSWeb interface with side-by-side diffs: <a href="http://dev.w3.org/cvsweb/html5/">http://dev.w3.org/cvsweb/html5/</a></dd>
+   <dd>Annotated summary with unified diffs: <a href="http://html5.org/tools/web-apps-tracker">http://html5.org/tools/web-apps-tracker</a></dd>
+   <dd>Raw Subversion interface: <code>svn checkout http://svn.whatwg.org/webapps/</code></dd>
+  </dl>
+
+  <p>The W3C <a href="http://www.w3.org/2008/webapps/">Web Applications
+  Working Group</a> is the W3C working group responsible for this
+  specification's progress along the W3C Recommendation track.
+<!--PUB-Y-->  This specification is the <!--INSERT LONGDAY--> <!--INSERT YEAR--> <!--INSERT LONGSTATUS-->.
+<!--PUB-N-->  This specification is the [DATE 1 January 1970] Editor's Draft.
+  </p>

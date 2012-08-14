@@ -1,0 +1,23 @@
+  <script>
+   function getCookie(name) {
+     var params = location.search.substr(1).split("&");
+     for (var index = 0; index < params.length; index++) {
+       if (params[index] == name)
+         return "1";
+       var data = params[index].split("=");
+       if (data[0] == name)
+         return unescape(data[1]);
+     }
+     var cookies = document.cookie.split("; ");
+     for (var index = 0; index < cookies.length; index++) {
+       var data = cookies[index].split("=");
+       if (data[0] == name)
+         return unescape(data[1]);
+     }
+     return null;
+   }
+  </script>
+ </head>
+ <body>
+  <div class="head" id="head">
+   <p><a href="http://www.w3.org/"><img height="48" width="72" alt="W3C" src="http://www.w3.org/Icons/w3c_home"></a></p>

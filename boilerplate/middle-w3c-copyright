@@ -1,0 +1,75 @@
+   <p class="copyright"><a
+   href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+   &#169; 2012 <a href="http://www.w3.org/"><abbr title="World Wide
+   Web Consortium">W3C</abbr></a><sup>&#174;</sup> (<a
+   href="http://www.csail.mit.edu/"><abbr title="Massachusetts
+   Institute of Technology">MIT</abbr></a>, <a
+   href="http://www.ercim.eu/"><abbr title="European Research
+   Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a
+   href="http://www.keio.ac.jp/">Keio</a>), All Rights Reserved. W3C
+   <a
+   href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
+   <a
+   href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a>
+   and <a
+   href="http://www.w3.org/Consortium/Legal/copyright-documents">document
+   use</a> rules apply.</p>
+
+<!--END database-->
+   <!-- UNDER NO CIRCUMSTANCES IS THE FOLLOWING PARAGRAPH TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->
+   <p class="alt">The bulk of the text of this specification is also
+   available in the WHATWG <a
+   <!--END w3c-html-->
+   <!--END microdata-->
+   <!--END 2dcontext-->
+   <!--END postmsg-->
+   <!--END html-device-->
+   <!--END websocket-api-->
+   <!--END storage-->
+   <!--END eventsource-->
+   <!--END workers-->
+     class="XXX"
+     <!--START w3c-html-->
+       href="http://www.whatwg.org/specs/web-apps/current-work/complete.html"
+     <!--END w3c-html-->
+     <!--START microdata-->
+       href="http://www.whatwg.org/specs/web-apps/current-work/complete.html#microdata"
+     <!--END microdata-->
+     <!--START 2dcontext-->
+       href="http://www.whatwg.org/specs/web-apps/current-work/complete.html#2dcontext"
+     <!--END 2dcontext-->
+     <!--START postmsg-->
+       href="http://www.whatwg.org/specs/web-apps/current-work/complete.html#comms"
+     <!--END postmsg-->
+     <!--START html-device-->
+       href="http://www.whatwg.org/specs/web-apps/current-work/complete.html#devices"
+     <!--END html-device-->
+     <!--START websocket-api-->
+       href="http://www.whatwg.org/specs/web-apps/current-work/complete.html#network"
+     <!--END websocket-api-->
+     <!--START storage-->
+       href="http://www.whatwg.org/specs/web-apps/current-work/complete.html#webstorage"
+     <!--END storage-->
+     <!--START eventsource-->
+       href="http://www.whatwg.org/specs/web-apps/current-work/complete.html#eventsource"
+     <!--END eventsource-->
+     <!--START workers-->
+       href="http://www.whatwg.org/specs/web-apps/current-work/complete.html#workers"
+     <!--END workers-->
+   <!--START w3c-html-->
+   <!--START microdata-->
+   <!--START 2dcontext-->
+   <!--START postmsg-->
+   <!--START html-device-->
+   <!--START websocket-api-->
+   <!--START storage-->
+   <!--START eventsource-->
+   <!--START workers-->
+   >Web Applications 1.0</a> specification, under a license that permits
+   reuse of the specification text.</p>
+   <!-- UNDER NO CIRCUMSTANCES IS THE PRECEDING PARAGRAPH TO BE REMOVED OR EDITED WITHOUT TALKING TO IAN FIRST -->
+<!--START database-->
+
+  </div>
+
+  <hr class="top">
