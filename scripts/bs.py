@@ -30,4 +30,4 @@ source = small_a_z.sub(lowercase_ref, source)
 source = zero_nine.sub(digits_ref, source)
 source = source.replace(dummy_replacement,replacement_para)
 source = unicode_char.sub(unicode_replacement, source)
-print line,
+print source,
