@@ -5,12 +5,14 @@ from anolislib import generator, utils
 
 if len(sys.argv)>1 and sys.argv[1] == 'html':
   select = 'w3c-html' 
+  spec = 'html'
 elif len(sys.argv)>1 and sys.argv[1] == '2dcontext':
-  select = '2dcontext'
+  spec = select = '2dcontext'
 else:
   sys.stderr.write("Usage: python %s [html|2dcontext]\n" % sys.argv[0])
   exit()
 
+print 'parsing'
 os.chdir(os.path.abspath(os.path.join(__file__, '../..')))
 source = open('source')
 succint = StringIO()
@@ -54,10 +56,28 @@ opts = {
   'w3c_compat_xref_normalization': False,
 }
 
+print 'indexing'
 filtered.seek(0)
 tree = generator.fromFile(filtered, **opts)
 filtered.close()
 
-output = open('Overview.html', 'wb')
+try:
+  os.makedirs('output/%s' % spec)
+except:
+  pass
+
+if spec == 'html':
+  output = open('output/html/onepage.html', 'wb')
+else:
+  output = open('output/%s/Overview.html' % spec, 'wb')
+
 generator.toFile(tree, output, **opts)
 output.close()
+
+if spec == 'html':
+  print 'splitting'
+  import spec_splitter
+  spec_splitter.w3c = True
+  spec_splitter.main('output/html/onepage.html', 'output/html')
+  os.rename('output/html/Overview.html', 'output/html/spec.html')
+  os.rename('output/html/onepage.html', 'output/html/Overview.html')
