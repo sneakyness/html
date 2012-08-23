@@ -67,7 +67,11 @@ except:
   pass
 
 if spec == 'html':
-  output = open('output/html/onepage.html', 'wb')
+  from glob import glob
+  for name in glob('output/html/*.html'):
+    os.remove(name)
+
+  output = open('output/html/single-page.html', 'wb')
 else:
   output = open('output/%s/Overview.html' % spec, 'wb')
 
@@ -78,6 +82,4 @@ if spec == 'html':
   print 'splitting'
   import spec_splitter
   spec_splitter.w3c = True
-  spec_splitter.main('output/html/onepage.html', 'output/html')
-  os.rename('output/html/Overview.html', 'output/html/spec.html')
-  os.rename('output/html/onepage.html', 'output/html/Overview.html')
+  spec_splitter.main('output/html/single-page.html', 'output/html')

@@ -17,7 +17,7 @@ def main(input, output):
       import html5lib.treewalkers
 
   if w3c:
-      index_page = 'Overview'
+      index_page = 'spec'
   else:
       index_page = 'index'
 
