@@ -28,6 +28,11 @@ Pull the code from GitHub:
     Check what branches you now have:
     $ git branch
 
+Configuring git
+---
+
+   * [Dealing with line endings](https://help.github.com/articles/dealing-with-line-endings)
+
 Installing the necessary software
 ---
 
