@@ -56,7 +56,10 @@ Build the HTML spec
     $ export PYTHONPATH=~/opt:~/Sites/html5/html5forAuthors/anolis/
     $ python scripts/publish.py html
 
-Resulting page is in output/html/Overview.html
+Resulting page is in output/html/single-page.html
+Or the multipage version at output/html/spec.html
+
+
 
 Cherry pick commits from the WHATWG spec
 ---
@@ -106,3 +109,26 @@ Create a new feature branch:
     $ git branch feature/blah
     $ git checkout feature/blah
     $ git push --set-upstream origin feature/blah
+
+
+Merging a feature branch:
+---
+You should not use the GitHub pull request merge feature, but instead rebase locally and push (to avoid a messy merge and get a linear history):
+
+    $ git checkout feature/blah
+    $ git rebase master
+
+Test everything still works, then push to GitHub:
+
+    $ git push -f
+
+Then merge on master:
+
+    $ git checkout master
+    $ git merge feature/blah
+    $ git push
+
+If you want to delete the branch, too, remove it both on local and GitHub (the issue with the pull request will continue to exist):
+
+    $ git branch -d feature/blah
+    $ git push origin :feature/blah
