@@ -95,7 +95,7 @@ Cherry pick the commit selected from before:
 
 If you want to edit the commit:
 
-    $ git cherry-pick -x -n 56446c4536af1ec5b39bde03b402d0772625fd92
+    $ git cherry-pick -x -e 56446c4536af1ec5b39bde03b402d0772625fd92
 
 Show changes to GitHub:
 
